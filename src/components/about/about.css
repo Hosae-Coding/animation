@@ -1,0 +1,42 @@
+.a {
+   height: 150vh;
+}
+.a-left {
+   flex: 1;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+.a-right {
+   flex: 1;
+}
+
+.a-card {
+   width: 60%;
+   height: 70vh;
+   border-radius: 30px;
+}
+.a-card-bg {
+   position: absolute;
+   top: 50px;
+   left: 50px;
+}
+
+.a-img {
+   width: 90%;
+   height: 200%;
+   object-fit: cover;
+   border: 2px solid #fff;
+
+   -moz-box-shadow: 10px 10px 5px #ccc;
+   -webkit-box-shadow: 10px 10px 5px #ccc;
+   box-shadow: 10px 10px 5px #ccc;
+}
+
+.a-right {
+   margin-left: 900px;
+}
+.a-desc {
+   display: block;
+   text-align: center;
+}
