@@ -21,7 +21,7 @@ const About = () => {
             <p className="a-desc">
                <img src={ReactIcon} alt="" />
                <img src={Node} alt="" />
-               <img src={Mgdb} alt="" />
+               <img src={Mgdb} alt=""  className="mgdb"/>
                <img src={Aws} alt="" />
             </p>
          </div>

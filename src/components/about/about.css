@@ -40,3 +40,26 @@
    display: block;
    text-align: center;
 }
+
+.mgdb {
+   width: 270px;
+}
+@media screen and (max-width: 480px) {
+   .a {
+      flex-direction: column;
+      text-align: center;
+      margin-top: 50px;
+   }
+
+   .a-left {
+      width: 100%;
+   }
+   .a-sub,
+   .a-desc {
+      flex-direction: column;
+   }
+
+   .a-right {
+      padding: 20px;
+   }
+}

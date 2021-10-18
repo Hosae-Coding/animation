@@ -1,10 +1,7 @@
 import React from 'react';
 import './product.css';
 
-import axios from 'axios';
-
-const Product = () => {
-   // const { data } = await axios.get(`https://random.imagecdn.app/500/${id}`);
+const Product = ({ img, link }) => {
    return (
       <div className="p">
          <div className="p-browser">
@@ -12,6 +9,9 @@ const Product = () => {
             <div className="p-circle"></div>
             <div className="p-circle"></div>
          </div>
+         <a href={link} target="_blank" rel="noreferrer">
+            <img src={img} alt="" className="p-img" />
+         </a>
       </div>
    );
 };
